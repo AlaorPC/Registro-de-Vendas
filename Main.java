@@ -184,7 +184,6 @@ public class Main {
                     }
                     else if(textQuantidade.getText().isBlank())
                     {
-                        System.out.println("OI");
                         JOptionPane.showMessageDialog(null, "Digite a quantidade", "Erro", JOptionPane.PLAIN_MESSAGE); 
                     }
                     else if(Float.parseFloat(textQuantidade.getText()) <= 0 )
